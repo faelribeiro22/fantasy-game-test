@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="max-w-4xl mx-auto w-full p-6 bg-white shadow-md rounded-lg"
+  >
+    <p>
+      Snapshot Content
+    </p>
+  </div>
+</DocumentFragment>
+`;

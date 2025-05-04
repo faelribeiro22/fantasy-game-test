@@ -3,7 +3,7 @@
 import useSWR from "swr";
 import { fetcher } from "../lib/api";
 import { useTeam } from "../context/TeamContext";
-import Card from "./Card";
+import Card from "./Card/Card";
 
 type Player = {
   id: string;

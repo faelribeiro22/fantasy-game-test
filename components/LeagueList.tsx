@@ -2,7 +2,7 @@
 
 import useSWR from "swr";
 import { fetcher } from "../lib/api";
-import Card from "./Card";
+import Card from "./Card/Card";
 
 interface League {
   id: string;
