@@ -1,4 +1,4 @@
-import LeagueList from "../../components/LeagueList";
+import LeagueList from "../../components/LeagueList/LeagueList";
 
 export default function LeaguePage() {
   return (

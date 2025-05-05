@@ -1,8 +1,8 @@
 "use client";
 
 import useSWR from "swr";
-import { fetcher } from "../lib/api";
-import Card from "./Card/Card";
+import { fetcher } from "../../lib/api";
+import Card from "../Card/Card";
 
 interface League {
   id: string;

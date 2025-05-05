@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LeagueList matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="p-4 border border-gray-200 rounded-lg hover:shadow-lg transition-shadow mb-4"
+    >
+      <div
+        class="flex justify-between items-center"
+      >
+        <div>
+          <p
+            class="font-medium"
+          >
+            Série A
+          </p>
+          <p
+            class="text-sm text-gray-600"
+          >
+            2 times
+          </p>
+        </div>
+        <button
+          class="px-3 py-1 bg-purple-600 text-white rounded hover:bg-purple-700"
+        >
+          Entrar
+        </button>
+      </div>
+    </div>
+    <div
+      class="p-4 border border-gray-200 rounded-lg hover:shadow-lg transition-shadow mb-4"
+    >
+      <div
+        class="flex justify-between items-center"
+      >
+        <div>
+          <p
+            class="font-medium"
+          >
+            Liga 2
+          </p>
+          <p
+            class="text-sm text-gray-600"
+          >
+            2 times
+          </p>
+        </div>
+        <button
+          class="px-3 py-1 bg-purple-600 text-white rounded hover:bg-purple-700"
+        >
+          Entrar
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

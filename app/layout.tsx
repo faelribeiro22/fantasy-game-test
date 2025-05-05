@@ -1,5 +1,5 @@
 // app/layout.tsx
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar/Navbar";
 import { TeamProvider } from "../context/TeamContext";
 import "../styles/global.css";
 import { ReactNode } from "react";
