@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { createTeam } from "../lib/api";
-import Container from "./Container/Container";
+import Container from "./Container";
 
 interface TeamResponse {
   id: string;

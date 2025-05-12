@@ -1,5 +1,5 @@
 import { render, waitFor } from "@testing-library/react";
-import LeagueList from "./LeagueList";
+import LeagueList from "../components/LeagueList";
 import swr from "swr";
 
 jest.mock("swr", () => ({

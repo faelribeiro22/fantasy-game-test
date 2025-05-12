@@ -16,7 +16,7 @@ export default function TeamPage() {
       {roster.length === 0 ? (
         <p>Nenhum jogador adicionado ainda.</p>
       ) : (
-        <ul className="space-y-1">
+        <ul className="space-y-1" data-testid="my-team">
           {roster.map((p) => (
             <li key={p.id} className="p-2 border rounded flex justify-between">
               <span>

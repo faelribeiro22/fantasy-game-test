@@ -3,7 +3,7 @@
 import useSWR from "swr";
 import { fetcher } from "../lib/api";
 import { useTeam } from "../context/TeamContext";
-import Card from "./Card/Card";
+import Card from "./Card";
 
 type Player = {
   id: string;
@@ -20,14 +20,14 @@ export default function PlayerList() {
   if (!players) return <p>Carregando...</p>;
 
   return (
-    <div>
+    <div data-testid="player-list">
       <h2 className="text-xl font-semibold mb-4">
         Jogadores — Orçamento: R${budget}
       </h2>
       {players
         .filter((p) => !roster.some((r) => r.id === p.id))
         .sort((a, b) => b.price - a.price)
-        .map((p) => (
+        .map((p, index) => (
           <Card key={p.id}>
             <div className="flex justify-between items-center">
               <div>
@@ -37,6 +37,7 @@ export default function PlayerList() {
               <div className="flex items-center gap-4">
                 <span className="font-semibold">R${p.price}</span>
                 <button
+                data-testid={`buy-player-${index}`}
                   disabled={p.price > budget}
                   onClick={() => buyPlayer(p)}
                   className={`px-3 py-1 rounded transition 

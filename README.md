@@ -56,6 +56,11 @@ fantasy-game-next-react/
    npm start
    ```
 
+5. **Executando testes e2e**
+   ```bash
+   npm run test:e2e
+   ```
+
 ---
 
 ## 🎨 Tecnologias
